@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import pageImage from "../../assets/images/PageImage.png";
 
 const PortfolioExample = () => {
@@ -14,9 +15,9 @@ const PortfolioExample = () => {
             <span aria-hidden="true">-</span>by
             <span aria-hidden="true">-</span>step guide.
           </p>
-          <a href="singup.html" className="default-btn --bg-white">
+          <Link to="/signup" className="default-btn --bg-white">
             Start Free Trial
-          </a>
+          </Link>
         </div>
         <div className="portfolio-example__illustration">
           <img src={pageImage} alt="" role="presentation" />

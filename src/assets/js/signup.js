@@ -3,8 +3,8 @@
     const form = document.querySelector(`.form`)
     const passwordBtn = document.querySelector(`.password-btn`)
     const slider = document.querySelector(`.carousel .slider`)
-    const btnsList = document.querySelector(`.singup-hero__list`)
-    const btnsListDest = [...btnsList.querySelectorAll(`.singup-hero__btn-section`)]
+    const btnsList = document.querySelector(`.signup-hero__list`)
+    const btnsListDest = [...btnsList.querySelectorAll(`.signup-hero__btn-section`)]
     const images = document.querySelectorAll('.slider .src')
     const maxImagesIndex = images.length
     const SLIDERTIME = 4000

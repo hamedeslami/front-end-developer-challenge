@@ -221,7 +221,7 @@ ul {
   text-decoration: none;
   color: black;
 }
-.singin-link {
+.signin-link {
   font-weight: 800;
 }
 .navbar__item .default-btn {
@@ -444,7 +444,7 @@ ul {
 .hero-container {
   display: none;
 }
-.singup-title {
+.signup-title {
   margin: 1em 0;
   font-size: 2.15rem;
 }
@@ -577,42 +577,42 @@ ul {
   max-width: 487px;
   margin: 0 auto;
 }
-.singup-img-box,
-.singup-hero {
+.signup-img-box,
+.signup-hero {
   min-width: 430px;
 }
-.singup-hero {
+.signup-hero {
   --content-width: 100%;
 }
-.singup-img-box .src {
+.signup-img-box .src {
   width: 100%;
   flex-shrink: 0;
 }
-.singup-hero__title {
+.signup-hero__title {
   width: var(--content-width);
   margin: 0.75em auto 0;
   margin-top: 0.75em;
   text-align: center;
   font-size: 2rem;
 }
-.singup-hero__content {
+.signup-hero__content {
   margin: 0.5em auto;
   width: var(--content-width);
   text-align: center;
   line-height: 1.5;
   font-weight: 300;
 }
-.singup-hero__list {
+.signup-hero__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   list-style: none;
 }
-.singup-hero__list li {
+.signup-hero__list li {
   margin-right: 0.1em;
   padding: 0 0.2em;
 }
-.singup-hero__btn-section {
+.signup-hero__btn-section {
   width: 11px;
   height: 11px;
   border-radius: 50%;
@@ -621,10 +621,10 @@ ul {
   opacity: 0.6;
   transition: opacity 500ms ease-out, transform 200ms ease-in;
 }
-.singup-hero__btn-section:focus {
+.signup-hero__btn-section:focus {
   transform: scale(1.5);
 }
-.singup-hero__btn-section.--active {
+.signup-hero__btn-section.--active {
   opacity: 1;
 }
 
@@ -689,10 +689,10 @@ ul {
     opacity: 1;
     width: 100%;
   }
-  .singup-hero__btn-section:focus {
+  .signup-hero__btn-section:focus {
     transform: scale(1);
   }
-  .singup-hero__btn-section:focus-visible {
+  .signup-hero__btn-section:focus-visible {
     transform: scale(1.5);
   }
 
@@ -744,7 +744,7 @@ ul {
     opacity: 1;
     width: 100%;
   }
-  .singup-hero__btn-section:hover {
+  .signup-hero__btn-section:hover {
     transform: scale(1.5);
   }
   .navbar__item .link,
@@ -915,7 +915,7 @@ ul {
   .portfolio-example__description {
     padding: 0 1.5em 0 2em;
   }
-  .singup-container {
+  .signup-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     min-height: 100vh;
@@ -947,7 +947,7 @@ ul {
   }
 }
 @media screen and (min-width: 1440px) {
-  .singup-hero {
+  .signup-hero {
     --content-width: 80%;
   }
 }

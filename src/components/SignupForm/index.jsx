@@ -6,7 +6,7 @@ const SignUpForm = () => {
       <h1 className="logo">
         <Link to="/">Fiber</Link>
       </h1>
-      <h2 className="singup-title">Create your Fiber account</h2>
+      <h2 className="signup-title">Create your Fiber account</h2>
       <form action="" className="form" autoComplete>
         <label htmlFor="form__name">Your Name</label>
         <input
@@ -66,9 +66,9 @@ const SignUpForm = () => {
           </div>
           <label htmlFor="form__terms">
             By creating an account on Fiber, you agree to the{" "}
-            <a href="#" className="form__terms___link">
+            <Link to="/" className="form__terms___link">
               Terms & Conditions
-            </a>
+            </Link>
             .
           </label>
         </div>

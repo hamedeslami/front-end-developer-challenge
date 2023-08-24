@@ -52,13 +52,13 @@ const Header = () => {
               </Link>
             </li>
             <li className="navbar__item ml-auto">
-              <Link to="#" className="link singin-link">
-                Sing In
+              <Link to="#" className="link signin-link">
+                Sign In
               </Link>
             </li>
             <li className="navbar__item">
               <button onClick={handleSignUp} className="default-btn --bg-blue">
-                Sing Up
+                Sign Up
               </button>
             </li>
           </ul>

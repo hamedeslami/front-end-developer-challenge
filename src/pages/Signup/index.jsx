@@ -2,9 +2,9 @@ import SignUpForm from "../../components/SignupForm";
 import Slider from "../../components/Slider";
 import Hero from "../../components/Slider/Hero";
 
-const Singup = () => {
+const SignUp = () => {
   return (
-    <section className="singup-container" aria-label="sing up section">
+    <section className="signup-container" aria-label="sign up section">
       <SignUpForm />
 
       <div className="hero-container">
@@ -15,4 +15,4 @@ const Singup = () => {
   );
 };
 
-export default Singup;
+export default SignUp;

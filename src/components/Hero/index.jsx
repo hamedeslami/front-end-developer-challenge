@@ -23,7 +23,7 @@ const Hero = () => {
             With Fiber, you can setup your own personal portfolio in minutes
             with dozens of premade, beatiful templates.
           </p>
-          <Link to="/singup" className="default-btn --bg-blue">
+          <Link to="/signup" className="default-btn --bg-blue">
             Start Free Trial
           </Link>
           <Link to="/" className="default-link">

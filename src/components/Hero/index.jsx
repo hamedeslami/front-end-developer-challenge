@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import heroIcon from "../../assets/images/hero-Illustration.png";
 
 const Hero = () => {
@@ -22,12 +23,12 @@ const Hero = () => {
             With Fiber, you can setup your own personal portfolio in minutes
             with dozens of premade, beatiful templates.
           </p>
-          <a href="singup.html" className="default-btn --bg-blue">
+          <Link to="/singup" className="default-btn --bg-blue">
             Start Free Trial
-          </a>
-          <a href="#" className="default-link">
+          </Link>
+          <Link to="/" className="default-link">
             View Examples
-          </a>
+          </Link>
           <div className="hero__introduction___advantages">
             <p>
               <svg

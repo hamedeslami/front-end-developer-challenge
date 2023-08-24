@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Header = () => {
   const navigate = useNavigate();
@@ -11,7 +11,7 @@ const Header = () => {
     <header className="top-header">
       <div className="container">
         <h1 className="logo">
-          <a href="index.html">Fiber</a>
+          <Link to="/">Fiber</Link>
         </h1>
         <button
           className="nav-btn default-btn"
@@ -37,24 +37,24 @@ const Header = () => {
         <nav className="navbar --active" aria-label="Main menu" id="main-nav">
           <ul className="navbar__list">
             <li className="navbar__item ml-auto">
-              <a href="#" className="link">
+              <Link to="/" className="link">
                 Community
-              </a>
+              </Link>
             </li>
             <li className="navbar__item">
-              <a href="#" className="link">
+              <Link to="/" className="link">
                 Pricing
-              </a>
+              </Link>
             </li>
             <li className="navbar__item">
-              <a href="#" className="link">
+              <Link to="/" className="link">
                 Features
-              </a>
+              </Link>
             </li>
             <li className="navbar__item ml-auto">
-              <a href="#" className="link singin-link">
+              <Link to="#" className="link singin-link">
                 Sing In
-              </a>
+              </Link>
             </li>
             <li className="navbar__item">
               <button onClick={handleSignUp} className="default-btn --bg-blue">

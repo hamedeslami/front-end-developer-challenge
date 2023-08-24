@@ -1,5 +1,7 @@
 /* eslint-disable */
 
+import { Link } from "react-router-dom";
+
 const CardItem = ({ avatar, gains, description, buttonText }) => {
   return (
     <article className="testimonial-card">
@@ -20,12 +22,12 @@ const CardItem = ({ avatar, gains, description, buttonText }) => {
         </div>
       </header>
       {description}
-      <a
-        href="#"
+      <Link
+        to="/"
         className="default-btn  --bg-white --gray-border testimonial-card-btn"
       >
         {buttonText}
-      </a>
+      </Link>
     </article>
   );
 };

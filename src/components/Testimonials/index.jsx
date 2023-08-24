@@ -9,7 +9,7 @@ const Testimonials = () => {
       <div className="container">
         <CardItem
           avatar={userAvatar}
-          buttonText={<a>View Sarah&apos;s Portfolio</a>}
+          buttonText={"View Sarah's Portfolio"}
           description={
             <p className="testimonial-card__content">
               Setting up my portfolio with Fiber took no more than 10 minutes.
@@ -24,7 +24,7 @@ const Testimonials = () => {
 
         <CardItem
           avatar={userAvatar2}
-          buttonText={<a>View Mathew&apos;s Portfolio</a>}
+          buttonText={"View Mathew's Portfolio"}
           description={
             <p className="testimonial-card__content">
               I have been getting <span className="text-upper">a lot</span> of
@@ -38,7 +38,7 @@ const Testimonials = () => {
 
         <CardItem
           avatar={userAvatar3}
-          buttonText={<a>View Sarah&apos;s Portfolio</a>}
+          buttonText={"View Sarah's Portfolio"}
           description={
             <p className="testimonial-card__content">
               I only just started freelancing this year and I have already made

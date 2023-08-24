@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
+
 const SignUpForm = () => {
   return (
     <section className="form-container">
       <h1 className="logo">
-        <a href="index.html">Fiber</a>
+        <Link to="/">Fiber</Link>
       </h1>
       <h2 className="singup-title">Create your Fiber account</h2>
       <form action="" className="form" autoComplete>
@@ -77,9 +79,9 @@ const SignUpForm = () => {
         </button>
         <p className="form__hasAccount">
           Already have an account?{" "}
-          <a href="#" className="link-signin">
+          <Link to="/" className="link-signin">
             Sign in
-          </a>
+          </Link>
         </p>
       </form>
     </section>

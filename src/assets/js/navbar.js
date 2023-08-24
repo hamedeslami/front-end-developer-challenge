@@ -1,11 +1,13 @@
 (
   function(){
     document.body.classList.add('js')
-    const navBtn = document.querySelector(`.nav-btn`)
+    const navBtn = document.querySelector('nav-btn')
     const navbar = document.getElementById('main-nav')
     
     window.addEventListener('resize', handleNavAttributes)
+
     navBtn.addEventListener('click', toggleNavbar)
+    
     toggleNavbar()
     handleNavAttributes()
     function toggleNavbar(){

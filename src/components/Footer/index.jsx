@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer className="main-footer">
@@ -19,24 +21,24 @@ const Footer = () => {
           <nav aria-label="Site menu navigation">
             <ul className="main-footer__list">
               <li>
-                <a href="index.html" className="main-footer__list-item ">
+                <Link to="/" className="main-footer__list-item ">
                   Homepage
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="main-footer__list-item ">
+                <Link to="/" className="main-footer__list-item ">
                   Pricing
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="main-footer__list-item ">
+                <Link to="/" className="main-footer__list-item ">
                   Testimonials
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="main-footer__list-item ">
+                <Link href="/" className="main-footer__list-item ">
                   Features
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
@@ -46,19 +48,19 @@ const Footer = () => {
           <nav aria-label="Resources menu navigation">
             <ul className="main-footer__list">
               <li>
-                <a href="#" className="main-footer__list-item ">
+                <Link to="/" className="main-footer__list-item ">
                   Support
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="main-footer__list-item ">
+                <Link to="/" className="main-footer__list-item ">
                   Contact
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="main-footer__list-item ">
+                <Link to="/" className="main-footer__list-item ">
                   <abbr title="Frequent asked questions">FAQ</abbr>
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
@@ -68,19 +70,19 @@ const Footer = () => {
           <nav aria-label="Company menu navigation">
             <ul className="main-footer__list">
               <li>
-                <a href="#" className="main-footer__list-item ">
+                <Link to="/" className="main-footer__list-item ">
                   About
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="main-footer__list-item ">
+                <Link to="/" className="main-footer__list-item ">
                   Customers
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="main-footer__list-item ">
+                <Link href="/" className="main-footer__list-item ">
                   Blog
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
@@ -90,19 +92,19 @@ const Footer = () => {
           <nav aria-label="Portfolios menu navigation">
             <ul className="main-footer__list">
               <li>
-                <a href="#" className="main-footer__list-item ">
+                <Link to="/" className="main-footer__list-item ">
                   Sarah Andrews
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="main-footer__list-item ">
+                <Link to="/" className="main-footer__list-item ">
                   Mathew Higgins
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="main-footer__list-item ">
+                <Link to="/" className="main-footer__list-item ">
                   Janice Dave
-                </a>
+                </Link>
               </li>
             </ul>
           </nav>
